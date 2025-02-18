@@ -11,6 +11,7 @@ import WeatherPage from "./pages/WeatherPage";
 
 import './index.css';
 import FrogFight from "./pages/FrogFight";
+import Notes from "./pages/Notes";
 
 const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
     {
         path: '/frogfight',
         element: <FrogFight />
+    },
+    {
+        path:'/notes',
+        element: <Notes />
     }
 ]);
 

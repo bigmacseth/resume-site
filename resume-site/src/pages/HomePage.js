@@ -9,7 +9,7 @@ function Header() {
                       lg:text-xl
                       md:text-lg md:top-20
                       sm:text-base'>
-        <h1>Welcome to big-mac.net, <Link to='/resume' className='hover:text-purple-700 hover:underline'>please hire me.</Link></h1>
+        <h1>Hello! My name is Seth Cradeur, <Link to='https://www.linkedin.com/in/seth-cradeur-5580662b2/' className='hover:text-purple-700 hover:underline text-purple-600'>please hire me.</Link></h1>
       </div>
     );
   }
@@ -19,23 +19,20 @@ function Header() {
       <div className='backdrop-blur-lg text-orange-400
                       flex flex-col mx-12 px-auto pb-16 pt-12 w-3/5 h-auto'>
             <h1 className='mx-10 mt-10 h-auto text-xl 2xl:text-3xl '>
-              New website looking good right!?
+            I am a self-taught junior developer trying to break into software development.
             </h1>
             <p className='mx-10 mt-10 h-auto text-md 2xl:text-xl '>
-              I made this using React and Tailwind to manage my CSS. It's very intimidating. It uses a lot of Javascript that I'm just not very
-              familiar with right now.
+            Starting with C# in 2023 my journey into software development has been nothing but fun since the very beginning.  I learned the basics of coding from Microsoft's Learn program and from there I have not stopped
+            trying to improve.
             </p>
   
             <p className='mx-10 mt-10 h-auto text-md 2xl:text-xl '>
-              I'm trying to fill out this whole page with nonsense. I also made all the graphics for this, I've got a couple background variations that I can use. This is using the long one.
+            I've also cultivated a love of open-source software and systems administration when I began self-hosting.  This site is fully hosted on my own server, along with a couple of super useful apps that my family and I use almost
+            daily.
             </p>
   
             <p className='mx-10 mt-10 h-auto text-md 2xl:text-xl '>
-              This is running on a home-built server located in my apartment. I'm using Caddy and Cloudflare to make it happen.
-            </p>
-  
-            <p className='mx-10 mt-10 h-auto text-md 2xl:text-xl '>
-              Try hovering over the link icons. The animations were suprisingly easy to make. Also see if you can spot the jank ass line I had to make to stitch the purple background together.
+            Most of the graphics on the site were made by me in Inkscape, an open-source alternative to photoshop. 
             </p>
   
       </div>

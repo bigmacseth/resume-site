@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
   
   const Links = () => {
     return (
-      <div className='z-40 bg-transparent h-auto ml-0
+      <div className='flex z-40 bg-transparent h-auto ml-0
                       2xl:w-2/3 2xl:mx-12
                       xl:w-1/3  xl:mx-12'>
         <div className="flex flex-row space-x-20 ">

@@ -84,6 +84,16 @@ export default function FrogFight() {
                 <div className='bg-white'>
                 <GuessGame />
                 </div>
+                <div>
+                    <p className='flex absolute top-[800px] text-orange-600 text-center'>
+                        This, is FrogFight.  It's a game that I made a long time ago in C#, now adapted and improved to run 
+                        in Python through Flask.  
+                    </p>
+                    <p className='flex absolute top-[850px] text-orange-600 text-center'>
+                        Its run through a Flask api that calls back and forth giving the server player input and handling 
+                        game logic outside of the browser, even though a text game is pretty tame for today's machines!
+                    </p>
+                </div>
                 
         </div>
     );
