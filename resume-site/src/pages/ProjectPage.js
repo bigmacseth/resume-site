@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { TiWeatherCloudy } from "react-icons/ti";
 import { GiFrogPrince } from 'react-icons/gi';
 import { GrNotes } from "react-icons/gr";
+import { IoIosChatbubbles } from "react-icons/io";
 import Notes from './Notes';
 
 function Header() {
@@ -136,6 +137,19 @@ const NotesLink = () => {
     )
 }
 
+const ChatLink = () => {  
+    return (
+    <div>
+            <div className='z-60 bg-transparent h-auto ml-0
+                        2xl:w-2/3 2xl:mx-12
+                        xl:w-1/3 xl:mx-12 py-20'>
+                <FrogFightIcon icon={ <IoIosChatbubbles /> } text={'LiveChat'} link={'/chat'} />
+            </div>
+        </div> 
+    );
+    
+}
+
 
 export default function ProjectPage() {
     return (
@@ -163,6 +177,7 @@ export default function ProjectPage() {
                         </i>
                         <i className='flex flex-col'>
                             <NotesLink />
+                            <ChatLink />
                         </i>
                     </div>
                     

@@ -41,7 +41,7 @@ function WeatherApp() {
             if (!lat || !lng) throw new Error('Location not found');
 
             // Fetch weather data
-            const weatherUrl = `http://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${lat},${lng}&aqi=no`;
+            const weatherUrl = `https://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${lat},${lng}&aqi=no`;
             const weatherResponse = await fetch(weatherUrl);
             if (!weatherResponse.ok) throw new Error('Weather API request failed');
             const weatherData = await weatherResponse.json();

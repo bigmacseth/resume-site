@@ -12,6 +12,8 @@ import WeatherPage from "./pages/WeatherPage";
 import './index.css';
 import FrogFight from "./pages/FrogFight";
 import Notes from "./pages/Notes";
+import LiveChat from "./pages/LiveChat";
+import ChatRoom from "./pages/ChatRoom";
 
 const router = createBrowserRouter([
     {
@@ -42,7 +44,15 @@ const router = createBrowserRouter([
     {
         path:'/notes',
         element: <Notes />
-    }
+    },
+    {
+    path:'/chat',
+    element:<LiveChat />
+    },
+    {
+        path:'/room/:room',
+        element:<ChatRoom />
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render (
