@@ -4,9 +4,9 @@ export function weatherScript() {
 
     var cityEntry = '';
     var locationCall = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
-    var apiKey = 'AIzaSyCtd-XM4qnh_dt2jj3KszwO6aJhQIgwoJU';
+    var apiKey = '';
     
-    var weatherCall = 'http://api.weatherapi.com/v1/current.json?key=52e6756aa50d4c58bf7201050242710&q=';
+    var weatherCall = 'http://api.weatherapi.com/v1/current.json?key=*placeapikeyhere*=';
     
     
     enterEvent();
