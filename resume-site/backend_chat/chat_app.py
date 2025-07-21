@@ -42,7 +42,6 @@ def handle_join_room(data):
         rooms[room] = {'members': set(), "messages": []}
 
     # Add the user to the room
-    
     rooms[room]['members'].add(name)
     join_room(room)
     
@@ -50,7 +49,6 @@ def handle_join_room(data):
     print(f"✅ {name} joined room {room}")
 
 @socketio.on('send_message')
-
 def handle_send_message(data):
     print(data)
     name = data.get('name')

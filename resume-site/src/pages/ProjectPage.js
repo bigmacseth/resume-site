@@ -4,14 +4,19 @@ import { Link } from "react-router-dom";
 import { TiWeatherCloudy } from "react-icons/ti";
 import { GiFrogPrince } from 'react-icons/gi';
 import { GrNotes } from "react-icons/gr";
-import { IoIosChatbubbles } from "react-icons/io";
+import { GiTalk } from "react-icons/gi";
+
 import Notes from './Notes';
 
 function Header() {
     return (
-        <div className='flex absolute top-32 left-16  text-orange-400 sm:text-xl my-0
-                      2xl:text-4xl'>
-            What I had to do to make this website happen!
+        <div className='absolute top-32 left-16  text-orange-400 mx-full my-0
+                      2xl:text-4xl
+                      xl:text-2xl
+                      lg:text-xl
+                      md:text-lg md:top-20
+                      sm:text-base'>
+            A showcase of my skills!
         </div>
     )
 }
@@ -92,7 +97,7 @@ const WeatherLink = () => {
                         2xl:w-2/3 2xl:mx-12
                         xl:w-1/3 xl:mx-12 py-20'>
             <div>
-                <WeatherIcon icon={<TiWeatherCloudy size="36" />} text={'CrappyWeatherApp'} link={'/weather'} />
+                <WeatherIcon icon={<TiWeatherCloudy size="38" />} text={'CrappyWeatherApp'} link={'/weather'} />
             </div>
                         
         </div>
@@ -143,7 +148,7 @@ const ChatLink = () => {
             <div className='z-60 bg-transparent h-auto ml-0
                         2xl:w-2/3 2xl:mx-12
                         xl:w-1/3 xl:mx-12 py-20'>
-                <FrogFightIcon icon={ <IoIosChatbubbles /> } text={'LiveChat'} link={'/chat'} />
+                <FrogFightIcon icon={ <GiTalk size="36"/> } text={'LiveChat'} link={'/chat'} />
             </div>
         </div> 
     );
@@ -170,7 +175,7 @@ export default function ProjectPage() {
                         </p>
                     </div>
 
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row px-16'>
                         <i className='flex flex-col'>
                             <WeatherLink />
                             <FrogFightLink />

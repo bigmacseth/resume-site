@@ -13,7 +13,7 @@ function Resume() {
 
     return (
         <div className='text-orange-600 text-3xl py-5 px-5 my-0'>
-            <button onClick={onButtonClick} className='bg-orange-600 text-black px-4 rounded-lg'>
+            <button onClick={onButtonClick} className='bg-orange-600 text-black px-4 py-2 rounded-lg'>
                 Download
             </button>
         </div>

@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "https://chat.big-mac.net/*"; // Change to your backend URL
+const SOCKET_URL = "https://chat.big-mac.net"; // Change to your backend URL
 
 export const socket = io(SOCKET_URL, {
     withCredentials: true, 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
     return (
-      <div className='flex absolute top-32 left-16  text-orange-400 mx-full my-0
+      <div className='absolute top-32 left-16  text-orange-400 mx-full my-0
                       2xl:text-4xl
                       xl:text-2xl
                       lg:text-xl
@@ -19,7 +19,7 @@ function Header() {
       <div className='backdrop-blur-lg text-orange-400
                       flex flex-col mx-12 px-auto pb-16 pt-12 w-3/5 h-auto'>
             <h1 className='mx-10 mt-10 h-auto text-xl 2xl:text-3xl '>
-            I am a self-taught junior developer trying to break into software development.
+            I am a self-taught developer trying to break into software management.
             </h1>
             <p className='mx-10 mt-10 h-auto text-md 2xl:text-xl '>
             Starting with C# in 2023 my journey into software development has been nothing but fun since the very beginning.  I learned the basics of coding from Microsoft's Learn program and from there I have not stopped
